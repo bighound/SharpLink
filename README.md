@@ -21,7 +21,7 @@ within the [docs folder](/docs).
 #### File System
 
 ```powershell
-PS C:\> $code = (iwr https://raw.githubusercontent.com/usdAG/SharpLink/main/SharpLink.cs).content
+PS C:\> $code = (iwr https://raw.githubusercontent.com/bighound/SharpLink/main/SharpLink.cs).content
 PS C:\> Add-Type $code
                                                                                                  
 PS C:\> $s = New-Object de.usd.SharpLink.Symlink("C:\Users\Public\Example\link", "C:\ProgramData\target.txt")
