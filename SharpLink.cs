@@ -899,12 +899,12 @@ namespace de.usd.SharpLink
          */
         private static string PrepareTargetPath(string path)
         {
-            /*string prefix = @"\??\";
+            string prefix = @"\??\";
 
             if (path.StartsWith(prefix))
                 return path;
-*/
-            return path;
+
+            return prefix + path;
         }
     }
 
@@ -1322,13 +1322,13 @@ namespace de.usd.SharpLink
          */
         private static string PrepareTargetPath(string path)
         {
-          /*  string prefix = @"\??\";
+            string prefix = @"\??\";
 
             if (path.StartsWith(prefix))
                 return path;
-*/
-            return path;
-            //return prefix + path;
+
+            
+            return prefix + path;
         }
     }
 
